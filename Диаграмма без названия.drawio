@@ -1,0 +1,189 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Страница — 1" id="ixPV9cXICDoCVKpU_W9H">
+    <mxGraphModel dx="1219" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-1" target="TeLPpMe1iXZgzAPI1Ofy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-1" value="начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-2" target="TeLPpMe1iXZgzAPI1Ofy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-2" value="&lt;div&gt;&amp;nbsp;using namespace std;&lt;/div&gt;&lt;div&gt;&amp;nbsp;setlocale(LC_ALL, &quot;RU&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp;int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };&lt;/div&gt;&lt;div&gt;&amp;nbsp;int size = sizeof(arr) / sizeof(arr[0]);&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;int target = 3;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="306" y="60" width="216" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-4" target="TeLPpMe1iXZgzAPI1Ofy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-4" value="cout &lt;&lt; &quot;Линейный поиск: &quot; &lt;&lt; linear_search(arr, size, target) &lt;&lt; std::endl;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="150" width="206" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-6" target="TeLPpMe1iXZgzAPI1Ofy-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-6" value="cout &amp;lt;&amp;lt; &quot;Бинарный поиск: &quot; &amp;lt;&amp;lt; binary_search(arr, size, target) &amp;lt;&amp;lt; std::endl;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="220" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-8" target="TeLPpMe1iXZgzAPI1Ofy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-8" value="cout &amp;lt;&amp;lt; &quot;Интерполяционный поиск: &quot; &amp;lt;&amp;lt; interpolation_search(arr, size, target) &amp;lt;&amp;lt; std::endl;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="290" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-10" value="return 0;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-12" target="TeLPpMe1iXZgzAPI1Ofy-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-12" value="int linear_search(int arr[], int size, int target)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-13" target="TeLPpMe1iXZgzAPI1Ofy-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-13" target="TeLPpMe1iXZgzAPI1Ofy-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-13" value="for (int index = 0; index &amp;lt; size; ++index)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="585" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-15" target="TeLPpMe1iXZgzAPI1Ofy-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="685" />
+              <mxPoint x="540" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-15" value="if (arr[index] == target)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="650" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-17" value="return index;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="760" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-21" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="TeLPpMe1iXZgzAPI1Ofy-13">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="440" y="840" as="sourcePoint" />
+            <mxPoint x="440" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="880" />
+              <mxPoint x="230" y="880" />
+              <mxPoint x="230" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-22" value="return -1;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="680" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-24" target="TeLPpMe1iXZgzAPI1Ofy-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-24" value="int binary_search(int arr[], int size, int target)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="960" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-26" target="TeLPpMe1iXZgzAPI1Ofy-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-26" value="&lt;div&gt;int left = 0;&lt;/div&gt;&lt;div&gt;int right = size - 1;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1020" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-28" target="TeLPpMe1iXZgzAPI1Ofy-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-28" value="while (left &amp;lt;= right)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1070" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-30" target="TeLPpMe1iXZgzAPI1Ofy-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-30" value="int mid = left + (right - left)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-32" target="TeLPpMe1iXZgzAPI1Ofy-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-32" target="TeLPpMe1iXZgzAPI1Ofy-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-32" value="if (arr[mid] == target)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1200" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="1440" />
+              <mxPoint x="440" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-34" value="return mid;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1280" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-39" target="TeLPpMe1iXZgzAPI1Ofy-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="1300" />
+              <mxPoint x="650" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-39" value="if (arr[mid] &amp;lt; target)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TeLPpMe1iXZgzAPI1Ofy-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="1390" />
+              <mxPoint x="540" y="1390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-41" value="left = mid + 1;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1360" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-45" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="600" y="1400" as="sourcePoint" />
+            <mxPoint x="440" y="1440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-46" value="return -1;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="1470" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TeLPpMe1iXZgzAPI1Ofy-47" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="TeLPpMe1iXZgzAPI1Ofy-46">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="440" y="1440" as="sourcePoint" />
+            <mxPoint x="490" y="1450" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
